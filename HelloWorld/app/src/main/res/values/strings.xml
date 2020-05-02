@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
+    <string name="app_name">Hello World</string>
+    <string name="hi">Hello</string>
+    <string name="person_name" translatable="false">Arturo</string>
+    <string name="person_lastName" translatable="false">Sanchez</string>
 </resources>
