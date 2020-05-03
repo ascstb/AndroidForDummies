@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:maxWidth="150dp"
+        android:src="@drawable/no_avatar2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextHello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hi" />
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@style/GeneralText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/person_name"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/tvLastName"
+            style="@style/GeneralText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/person_lastName" />
+
+        <Button
+            android:id="@+id/btnMoreInfo"
+            style="@style/ActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onMoreInfoClicked"
+            android:text="@string/more_info_button" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/general_margin"
+        android:autofillHints=""
+        android:hint="@string/write_a_comment_hint"
+        android:inputType="text" />
+
+</LinearLayout>

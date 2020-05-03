@@ -3,4 +3,16 @@
     <string name="hi">Hello</string>
     <string name="person_name" translatable="false">Arturo</string>
     <string name="person_lastName" translatable="false">Sanchez</string>
+    <string name="more_info_button">More Info</string>
+    <string name="write_a_comment_hint">Write a Comment</string>
+    <string name="top_text_text" translatable="false">Top Text</string>
+    <string name="top_left_text" translatable="false">Top Left Text</string>
+    <string name="top_right_text" translatable="false">Top Right Text</string>
+    <string name="bottom_text" translatable="false">Bottom Text</string>
+    <string name="middle_text" translatable="false">Middle Text</string>
+    <string name="middle_left_text" translatable="false">Middle Left Text</string>
+    <string name="middle_right_text" translatable="false">Middle Right Text</string>
+    <string name="top_middle_left_text" translatable="false">Top Middle Left Text</string>
+    <string name="top_middle_right_text" translatable="false">Top Middle Right Text</string>
+    <string name="share_button" translatable="false">Share</string>
 </resources>

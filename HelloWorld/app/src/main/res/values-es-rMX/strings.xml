@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">Hola Mundo</string>
     <string name="hi">Wop</string>
+    <string name="person_name" translatable="false">Arturo</string>
+    <string name="person_lastName" translatable="false">Sanchez</string>
+    <string name="more_info_button">Más Información</string>
+    <string name="write_a_comment_hint">Escribe un comentario</string>
 </resources>

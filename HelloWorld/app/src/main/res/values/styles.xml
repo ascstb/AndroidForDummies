@@ -8,4 +8,29 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextHello">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/general_margin</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/border_black</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="GeneralText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_margin">@dimen/small_margin</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ActionButton">
+        <item name="android:layout_margin">@dimen/general_margin</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:paddingStart">@dimen/general_margin</item>
+        <item name="android:paddingEnd">@dimen/general_margin</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
 </resources>
